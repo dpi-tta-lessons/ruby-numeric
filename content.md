@@ -206,3 +206,5 @@ In this project, you will write Ruby programs that leverage these string methods
 - Ruby Docs: [Integer](https://ruby-doc.org/3.4.1/Integer.html)
 - Ruby Docs: [Float](https://ruby-doc.org/3.4.1/Float.html)
 - Ruby Docs: [Float](https://ruby-doc.org/3.4.1/Numeric.html)
+
+<!-- TODO: mention how to break up larger numbers with _ eg 1_000_000 == 1000000 -->
