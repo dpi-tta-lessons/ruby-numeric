@@ -208,3 +208,9 @@ In this project, you will write Ruby programs that leverage these string methods
 - Ruby Docs: [Float](https://ruby-doc.org/3.4.1/Numeric.html)
 
 <!-- TODO: mention how to break up larger numbers with _ eg 1_000_000 == 1000000 -->
+
+<!-- TODO: float round() for comparison -->
+
+<!-- TODO: order of operations / pemdas -->
+
+<!-- TODO: Math module, eg Math::PI -->
