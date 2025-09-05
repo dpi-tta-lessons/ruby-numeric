@@ -86,6 +86,19 @@ pp 2**3
 ```
 {: .repl }
 
+### Order of Operations
+
+Ruby follows standard order of operations PEMDAS (parentheses, exponents, multiplication/division, addition/subtraction).
+
+```ruby
+# 14 (multiplication first)
+pp 2 + 3 * 4
+
+# 20 (parentheses first)
+pp (2 + 3) * 4
+```
+{: .repl }
+
 ### Division and Remainder
 
 Ruby uses two operators for division:
@@ -160,6 +173,40 @@ pp 0.1 + 0.2
   Floats are fine anytime tiny rounding differences don't matter. In cases you need exact decimal answers (eg financial apps), Ruby provides [BigDecimal](https://ruby-doc.org/3.4.1/gems/bigdecimal/BigDecimal.html) for precise decimal math or simply use Integers in the smallest unit (eg 101 cents for $1.01).
 </aside>
 
+You can call [Float#round](https://docs.ruby-lang.org/en/3.4/Float.html#method-i-round) method to set the number of decimal places. This can be usefule when comparing or displaying them.
+
+```ruby
+# 0.3
+pp (0.1 + 0.2).round(2)
+```
+{: .repl }
+
+## Math Module
+
+Ruby's [Math module](https://ruby-doc.org/3.4.1/Math.html) provides extra math functions and constants.
+
+```ruby
+# 3.0
+pp Math.sqrt(9)   
+
+# 1.0
+pp Math.cos(0)
+
+# 3.141592653589793
+pp Math::PI
+```
+{: .repl }
+
+## Syntax Sugar
+
+You can make large numbers more readable by adding underscores.
+
+```ruby
+# true
+pp 1_000_000 == 1000000
+```
+{: .repl }
+
 ## Wrap-Up
 
 You've learned:
@@ -206,11 +253,4 @@ In this project, you will write Ruby programs that leverage these string methods
 - Ruby Docs: [Integer](https://ruby-doc.org/3.4.1/Integer.html)
 - Ruby Docs: [Float](https://ruby-doc.org/3.4.1/Float.html)
 - Ruby Docs: [Float](https://ruby-doc.org/3.4.1/Numeric.html)
-
-<!-- TODO: mention how to break up larger numbers with _ eg 1_000_000 == 1000000 -->
-
-<!-- TODO: float round() for comparison -->
-
-<!-- TODO: order of operations / pemdas -->
-
-<!-- TODO: Math module, eg Math::PI -->
+- Ruby Docs: [Math](https://ruby-doc.org/3.4.1/Math.html)
