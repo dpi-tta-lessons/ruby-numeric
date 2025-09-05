@@ -202,8 +202,8 @@ pp Math::PI
 You can make large numbers more readable by adding underscores.
 
 ```ruby
-# true
-pp 1_000_000 == 1000000
+# 1000000
+pp 1_000_000
 ```
 {: .repl }
 
