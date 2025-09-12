@@ -242,7 +242,7 @@ You've learned:
 
 ## Project: Number
 
-In this project, you will write Ruby programs that leverage these string methods. This project includes automated tests, so click this link to get started <https://github.com/dpi-tta-projects/ruby-numeric/fork>, fork the repository and create a codespace.
+In this project, you will write Ruby programs that leverage these number methods. This project includes automated tests, so click this link to get started <https://github.com/dpi-tta-projects/ruby-numeric/fork>, fork the repository and create a codespace.
 
 <aside class="warning">
   In order to get credit for completing this project you'll need to open the assignment link from canvas to generate an access token.
